@@ -1,0 +1,36 @@
+// Bootstrap style overrides
+//
+// These are styles which override the Bootstrap default framework.
+// For example, changing the padding for containers.
+
+.container, container-fluid {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+.card {
+	background-color:#e5f6fb;
+	border:1px solid #000000;
+	margin: 2rem 0;
+}
+
+input {
+	max-width:100%;
+}
+.btn-toolbar a {
+	//border-color:#000;
+}
+
+// FontAwesome style overrides
+// Sometimes ad blockers will block FontAwesome social media class names.
+.bc-fa-jsfiddle {
+	@extend .fa-jsfiddle;
+}
+.bc-fa-github {
+	@extend .fa-github;
+}
+.bc-fa-codepen {
+	@extend .fa-codepen;
+}
+.bc-fa-linkedin {
+	@extend .fa-linkedin;
+}

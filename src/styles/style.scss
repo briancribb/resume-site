@@ -1,0 +1,90 @@
+/*!
+ * Bootstrap v4.0.0-alpha.6 (https://getbootstrap.com)
+ * Copyright 2011-2017 The Bootstrap Authors
+ * Copyright 2011-2017 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+
+// Custom variable overrides for vendor frameworks
+@import "custom";
+
+// Core variables and mixins
+@import "../../../_vendor/bootstrap-4.0.0-alpha.6/scss/variables";
+@import "../../../_vendor/bootstrap-4.0.0-alpha.6/scss/mixins";
+@import "../../../_vendor/bootstrap-4.0.0-alpha.6/scss/custom";
+
+// Reset and dependencies
+@import "../../../_vendor/bootstrap-4.0.0-alpha.6/scss/normalize";
+@import "../../../_vendor/bootstrap-4.0.0-alpha.6/scss/print";
+
+// Core CSS
+@import "../../../_vendor/bootstrap-4.0.0-alpha.6/scss/reboot";
+@import "../../../_vendor/bootstrap-4.0.0-alpha.6/scss/type";
+@import "../../../_vendor/bootstrap-4.0.0-alpha.6/scss/images";
+@import "../../../_vendor/bootstrap-4.0.0-alpha.6/scss/code";
+@import "../../../_vendor/bootstrap-4.0.0-alpha.6/scss/grid";
+@import "../../../_vendor/bootstrap-4.0.0-alpha.6/scss/tables";
+@import "../../../_vendor/bootstrap-4.0.0-alpha.6/scss/forms";
+@import "../../../_vendor/bootstrap-4.0.0-alpha.6/scss/buttons";
+
+// Components
+@import "../../../_vendor/bootstrap-4.0.0-alpha.6/scss/transitions";
+//@import "../../../_vendor/bootstrap-4.0.0-alpha.6/scss/dropdown";
+@import "../../../_vendor/bootstrap-4.0.0-alpha.6/scss/button-group";
+//@import "../../../_vendor/bootstrap-4.0.0-alpha.6/scss/input-group";
+//@import "../../../_vendor/bootstrap-4.0.0-alpha.6/scss/custom-forms";
+//@import "../../../_vendor/bootstrap-4.0.0-alpha.6/scss/nav";
+//@import "../../../_vendor/bootstrap-4.0.0-alpha.6/scss/navbar";
+@import "../../../_vendor/bootstrap-4.0.0-alpha.6/scss/card";
+//@import "../../../_vendor/bootstrap-4.0.0-alpha.6/scss/breadcrumb";
+//@import "../../../_vendor/bootstrap-4.0.0-alpha.6/scss/pagination";
+//@import "../../../_vendor/bootstrap-4.0.0-alpha.6/scss/badge";
+//@import "../../../_vendor/bootstrap-4.0.0-alpha.6/scss/jumbotron";
+//@import "../../../_vendor/bootstrap-4.0.0-alpha.6/scss/alert";
+//@import "../../../_vendor/bootstrap-4.0.0-alpha.6/scss/progress";
+//@import "../../../_vendor/bootstrap-4.0.0-alpha.6/scss/media";
+//@import "../../../_vendor/bootstrap-4.0.0-alpha.6/scss/list-group";
+@import "../../../_vendor/bootstrap-4.0.0-alpha.6/scss/responsive-embed";
+//@import "../../../_vendor/bootstrap-4.0.0-alpha.6/scss/close";
+
+// Components w/ JavaScript
+//@import "../../../_vendor/bootstrap-4.0.0-alpha.6/scss/modal";
+//@import "../../../_vendor/bootstrap-4.0.0-alpha.6/scss/tooltip";
+//@import "../../../_vendor/bootstrap-4.0.0-alpha.6/scss/popover";
+//@import "../../../_vendor/bootstrap-4.0.0-alpha.6/scss/carousel";
+
+// Utility classes
+@import "../../../_vendor/bootstrap-4.0.0-alpha.6/scss/utilities";
+
+
+/*!
+ * Font Awesome styles. Variables for this can be overriden in the "custom" partial above.
+ */
+@import "../../../_vendor/font-awesome-4.7.0/scss/variables";
+@import "../../../_vendor/font-awesome-4.7.0/scss/mixins";
+@import "../../../_vendor/font-awesome-4.7.0/scss/path";
+@import "../../../_vendor/font-awesome-4.7.0/scss/core";
+//@import "../../../_vendor/font-awesome-4.7.0/scss/larger";
+//@import "../../../_vendor/font-awesome-4.7.0/scss/fixed-width";
+//@import "../../../_vendor/font-awesome-4.7.0/scss/list";
+//@import "../../../_vendor/font-awesome-4.7.0/scss/bordered-pulled";
+//@import "../../../_vendor/font-awesome-4.7.0/scss/animated";
+//@import "../../../_vendor/font-awesome-4.7.0/scss/rotated-flipped";
+//@import "../../../_vendor/font-awesome-4.7.0/scss/stacked";
+@import "../../../_vendor/font-awesome-4.7.0/scss/icons";
+@import "../../../_vendor/font-awesome-4.7.0/scss/screen-reader";
+
+
+
+
+/*!
+ * And now our local stuff:
+ */
+@import "_partials/overrides";
+@import "_partials/trans";
+@import "_partials/base";
+@import "_partials/typography";
+@import "_partials/stars";
+@import "_partials/layout";
+@import "_partials/custom404";

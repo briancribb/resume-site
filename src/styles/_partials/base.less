@@ -1,0 +1,118 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+@bgGold: #f6d659;
+@bgGoldDark: #9e862a;
+
+html, body {
+	height: 100%;
+	min-height: 100%;
+}
+body {
+	background: #000000;
+}
+a {
+	color: #dd0000;
+	text-decoration: underline;
+}
+a:hover {
+	color: #990000;
+	text-decoration: none;
+}
+
+h1, h2 {
+	margin-top:0;
+}
+p:last-child {
+	margin-bottom: 0;
+}
+.container {
+	width: auto;
+	max-width: 550px;
+	position: relative;
+	z-index: 10;
+	padding: 0 15px;
+}
+.well {
+	background: @bgGold;
+	border: 1px solid @bgGoldDark;
+}
+.scroll-container {
+	height: 100%;
+	z-index: 0;
+	overflow-y: scroll;
+}
+.scroll-content {
+  min-height: 100%;
+  position: relative;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.main-header {
+	overflow: hidden;
+	position: relative;
+	margin-top:20px;
+	padding: 10px;
+	height:90px;
+	border:1px solid #000000;
+	background: #ffffff url(../img/bg_header.png);
+	canvas {
+		position: absolute;
+		top:0;left:0;
+		height:100px;
+		width:960px;
+	}
+}
+
+.site-logo {
+	position: absolute;
+	bottom:10px;
+	.logoName {
+		img {
+			margin:0;
+			padding:0;
+			display:block;
+			float:none;
+		}
+	}
+	.logoDescription {
+		font-size:16px;
+		font-family:Courier;
+		text-transform: lowercase;
+		text-align:left;
+		margin:0 auto;
+		padding: 0px 0px 0px 10px;
+		display:block;
+		float:none;
+		clear:both;
+		width:100%;
+	}
+	a, a:hover {
+		color:#000000;
+		//text-decoration:none; 
+	}
+}
+img.gravatar {
+	margin-bottom:20px;
+	border-radius:20px;
+	border: 2px solid #000000;
+	max-width:100%;
+}
+.accessibility {
+	position: absolute;
+	left:-9999px;
+}
+
+@media (max-width:500px ) {
+	.main-header {
+		margin-top:0;
+	}
+	.container{
+		padding: 0;
+	}
+	.well:last-child {
+		margin-bottom: 0;
+	}
+}

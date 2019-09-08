@@ -1,0 +1,71 @@
+
+.card.error {
+	background: #f9dd70;
+	border: 1px solid #9e862a;
+}
+
+.error-container {
+	margin:20px 0;
+	img {
+		max-width:100%;
+		display: block;
+		clear:both;
+		margin:0 auto;
+	}
+}
+
+
+img.ship {
+	margin:40px auto 50px auto;
+	z-index:4;
+	-webkit-animation: infiniteSpin 5s linear infinite; /* Safari 4+ */
+	-moz-animation:    infiniteSpin 5s linear infinite; /* Fx 5+ */
+	-o-animation:      infiniteSpin 5s linear infinite; /* Opera 12+ */
+	animation:         infiniteSpin 5s linear infinite; /* IE 10+ */
+}
+
+
+@-webkit-keyframes infiniteSpin {
+	from{
+		-webkit-transform: rotate(0deg);
+	}
+	to{
+		-webkit-transform: rotate(360deg);
+	}
+}
+@-moz-keyframes infiniteSpin {
+	from{
+		-o-transform: rotate(0deg);
+	}
+	to{
+		-moz-transform: rotate(360deg);
+	}
+}
+@-o-keyframes infiniteSpin {
+	from{
+		-o-transform: rotate(0deg);
+	}
+	to{
+		-o-transform: rotate(360deg);
+	}
+}
+keyframes infiniteSpin {
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
+
+
+
+@media (max-width:500px ) {
+	.error-container {
+		margin:10px 0;
+	}
+	img.ship {
+		margin:20px auto;
+		max-width: 100px;
+	}
+}

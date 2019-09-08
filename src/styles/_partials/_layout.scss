@@ -1,0 +1,89 @@
+// Layout
+// ================================
+.site-container {
+	padding:0 1rem;
+}
+.main-header, .site-content {
+	max-width:600px;
+}
+.site-content {
+	position:relative;
+	z-index: 10;
+}
+
+
+.main-header {
+	overflow: hidden;
+	position: relative;
+	padding: 10px 0;
+	height:90px;
+	border:1px solid #000000;
+	background: #ffffff url(../../src/images/bg_header.png);
+	canvas {
+		position: absolute;
+		top:0;left:0;
+		height:100px;
+		width:960px;
+	}
+}
+.site-logo, .logoName {
+	width:100%;
+}
+.site-logo {
+	position: absolute;
+	top:auto;
+	bottom:10px;
+	width:100%;
+	.logoName {
+		img {
+			margin:0 auto;
+			padding:0;
+			display:block;
+		}
+	}
+	.logoDescription {
+		font-size:16px;
+		font-family:Courier;
+		text-transform: lowercase;
+		text-align:center;
+		padding: 0 10px;
+		display:block;
+	}
+	a, a:hover {
+		color:#000000;
+		//text-decoration:none; 
+	}
+}
+
+
+
+@include media-breakpoint-up(sm) {
+	.main-header {
+		margin-top:2rem;
+		padding: 10px;
+	}
+
+	.site-logo, .logoName {
+		width:auto;
+	}
+	.site-logo {
+		top:10px;
+		bottom:auto;
+	}
+	.logoName {
+		img {
+			margin:0;
+		}
+	}
+	.logoDescription {
+		text-align:left;
+		padding: 0 0 0 10px;
+	}
+
+
+
+
+
+
+
+}
